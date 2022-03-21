@@ -1,6 +1,5 @@
-const names = ["Seth", "Sean"];
+const names = ["Seth", "Sean", "David", "Sara", "Christian"];
 
-const newNames = names.push("David");
-
-console.log(names);
-console.log(newNames);
+for (let i in names) {
+    console.log("Hello " + names[i])
+}
